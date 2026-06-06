@@ -1,0 +1,26 @@
+{
+  "name": "wc3-asset-preview",
+  "displayName": "Warcraft III Asset Preview",
+  "description": "Preview Warcraft III assets",
+  "version": "0.0.2",
+  "publisher": "web2unix",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web2unix/wc3-asset-preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.1",
+    "@types/vscode": "^1.100.0",
+    "typescript": "^5.9.2"
+  }
+}
